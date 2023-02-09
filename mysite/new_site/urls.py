@@ -5,6 +5,6 @@ from . import views
 urlpatterns = [
     path('', views.index, name='index'),
     path('pizza/', views.pizza, name='pizza'),
-    path('trains/', views.trains, name='trains')
+    path('trains/', views.trains, name='trains')  ##What ??
 ]
 # This whole thing is just describing diffrent paths you can take on the website. So going to pizza/ gives the request for the pizza page.
